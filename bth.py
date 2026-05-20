@@ -1,5 +1,5 @@
 continue_pro = "y"
-while continue_pro != "n":
+while continue_pro == "y":
     num_employees = int(input("Nhập số lượng nhân viên: "))
     print()  
     for i in range(num_employees):
